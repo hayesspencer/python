@@ -1,0 +1,14 @@
+Predictions:
+1: 1-9
+2: 1 4 7
+3: 0 1 2 3 4
+4: 20 17 14 11 8 5 2
+5: London Paris Tokyo
+6: 0 7 1 13 2 8 3 42 The answer to life, the universe, and everything.
+7: Hello 1 Hello 3 Hello 5 Hello 7 Hello 9
+8: Hello 1 Hello 3 Hello 5 Hello 7 Hello 9
+9: name Fido age 4 trick rolls over
+10: Second, I will ask my classmates for help, like how I would ask a fellow employee at my job
+Fourth, I will ask an available instructor
+Third, I will ask an available TA in a public setting, so everyone can benefit from my question
+First, I will use the 20 minute rule and use the platform and other resources to find my answer
