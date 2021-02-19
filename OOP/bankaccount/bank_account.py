@@ -12,17 +12,20 @@ class BankAccount:
             self.balance -= amount
             return self
         else:
-            self.balance -= 0
-            print("Insufficient funds:Charge of $35")
+            self.balance -= amount
+            print("Insufficient funds-Charge of $35")
             return self
 
     def display_account_info(self):
-        print(f"Balance: ${self.balance}")
+        print(
+            f"Account info: Balance:{self.balance} Interest Rate: {self.interest}")
         return self
 
     def yield_interest(self):
-        if (self.balance > 0):
-            self.balance = self.balance + self.balance * self.interest
+        if (self.balance < 0):
+            print("In order to occur interest you must have positive balance.")
+            return self
+        self.balance += self.balance * self.interest
         return self
 
 
